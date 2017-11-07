@@ -1,6 +1,6 @@
 const magik = magikcraft.io;
 
-function recall() {
-	const there = magik.memento.getItem();
+function recall(name) {
+	const there = magik.memento.getItem(name);
     magik.dixit(there.toString());
 }
